@@ -14,6 +14,9 @@ a {
     color: #191919;
 }
 
+
+/* HERO */
+
 section#hero {
     background: #C1712E;
     color: #fff;
@@ -23,7 +26,17 @@ section#hero a {
     color: #fff;
 }
 
-.logo {width: 35em;}
+.logo {width: 35em;
+padding: 3em;}
+
+h2 {font-size: 1em;
+padding-bottom:3em;
+font-style: italic;
+font-weight:100;}
+
+
+
+/* NAVIGATION */
 
 .navbar-nav>li {
     display: inline-block;
@@ -41,7 +54,7 @@ section#hero a {
     padding: 1.5em 2em;
     color: #fff;
     font-weight: lighter;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 .navbar-nav>li>a:hover {
@@ -59,17 +72,9 @@ section#hero a {
     width: 100%; /* Full width */
 }
 
-
-
-h2 {font-size: 1em;
-	margin-bottom: 2em;
-}
-
-
 .container-fluid.nopad {
     padding:0;
 }
-
 
 
 
@@ -86,36 +91,43 @@ h2 {font-size: 1em;
 }
 
 
+/* SECTIONS */
+
+.title {margin-bottom: .5em;
+width: 20em;
+margin-top: 2em;}
 
 
-.logo-top {margin-bottom: 3em;
-width: 30em;
-margin-top: 3em;}
+#about {margin-top: 2em;
+}
 
-.tag {color:#C8522E;}
-
-
-
-.title {margin-bottom: 3em;
-width: 30em;
-margin-top: 3em}
-
-
-
-#about {margin-top: 2em;}
+#line {color:#C8522E;
+}
 
 #info {background: #FAF7F7;
 margin-top: 2em;
-margin-bottom: 2em;}
+margin-bottom: 2em;
+padding: 2em;
+font-weight:100;}
 
 #info2 {margin-top: 2em;
-margin-bottom: 2em;}
+margin-bottom: 2em;
+padding: 2em;
+font-weight:100;}
 
 #footer {background: #428692;
 color: #C4BEB3;
 padding-top: 2em;
 padding-bottom: 2em;}
 
+
+
+/* BUTTON */
+
+
+
+
+/* DONATION FORM */
 
 .donation-container {
 	height: 1000px;
