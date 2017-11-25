@@ -50,7 +50,6 @@ font-weight:100;}
     text-align: center;
 }
 
-.nav>navbar-nav {color:pink;}
 
 .navbar-nav>li>a {
     padding: 1.5em 2em;
@@ -82,7 +81,7 @@ nav.affix {
 
 .title {margin-bottom: .5em;
 width: 20em;
-margin-top: 1em;}
+margin-top: -1em;}
 
 
 #about {margin-top: 2em;
@@ -96,41 +95,56 @@ p.about {font-weight: bold;}
 
 #info {;
 margin-top: 1em;
-margin-bottom: 1em;
+margin-bottom: .5em;
 padding: 2em;
 font-weight:100;}
 
-#info2 {margin-top: 1em;
+#info2 {margin-top: .5em;
 margin-bottom: 1em;
 padding: 2em;
 font-weight:100;}
 
 #footer {background: #428692;
 color: #C4BEB3;
-padding-top: 4em;
-padding-bottom: 1em;
+padding-top: 2em;
+padding-bottom: 4em;
+	
 }
 
 #copyright {font-size: .75em;
 padding-bottom:1em;
 color: #C4BEB3;
-background: #428692;}
+background: #428692;
+}
 
-.list-inline {padding-top:3em;
+.list {
+	text-decoration: none;
 	
 }
 
-.list-inline a{color:#FFFFFF;
+.list a{color:#FFFFFF;
+	text-decoration: none;
 }
 
-.list-inline a:hover{color:#C4BEB3;
+.list a:hover{color:#C4BEB3;
 text-decoration:none;}
 
-.fa {width: 2em;
+.fa {
+	width: 2em;
 color: #FFFFFF;}
 
 .fa:hover {
 color: #C4BEB3;}
+
+.col-sm-4 {padding-left: 4.5em;}
+
+h3 {padding-left:3.7em;
+margin-top:2em;
+margin-bottom:.18em;}
+
+.form-group {
+		margin-bottom:-.5em;}
+
 
 .private {color:#C4BEB3;
 }
@@ -142,7 +156,7 @@ color: #C4BEB3;}
 }
 
 
-/* CONTACT AREA */
+/* FMI AREA */
 
 .fmi {
 margin-bottom: .5em;
@@ -154,5 +168,12 @@ margin-bottom:.5em;}
 .form-group {color:#C8522E;
 padding-top:1em;}
 
-.btn-lg {margin-left:5em;
+.btn-default {color:#075352;
+margin-left:.5em;}
+
+.btn-lg {margin-left:3em;
 }
+
+
+
+
