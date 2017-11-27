@@ -21,7 +21,7 @@ a {
 section#hero {
     background: #C1712E;
 	background-image:url(images/texture.png);
-	
+
     color: #fff;
 }
 
@@ -42,14 +42,16 @@ font-weight:100;}
 .navbar-nav>li {
     display: inline-block;
     float: none;
-} 
+}
 
 .navbar-nav {
     float: none;
-    background: #CEAD49;
     text-align: center;
 }
 
+nav.navbar {
+	background: #CEAD49;
+}
 
 .navbar-nav>li>a {
     padding: 1.5em 2em;
@@ -85,7 +87,7 @@ margin-top: -1em;}
 
 
 #about {margin-top: 2em;
-	
+
 }
 
 
@@ -108,7 +110,7 @@ font-weight:100;}
 color: #C4BEB3;
 padding-top: 2em;
 padding-bottom: 4em;
-	
+
 }
 
 #copyright {font-size: .75em;
@@ -119,7 +121,7 @@ background: #428692;
 
 .list {
 	text-decoration: none;
-	
+
 }
 
 .list a{color:#FFFFFF;
@@ -173,7 +175,3 @@ margin-left:.5em;}
 
 .btn-lg {margin-left:3em;
 }
-
-
-
-
