@@ -86,7 +86,7 @@ width: 20em;
 margin-top: -1em;}
 
 
-#about {margin-top: 2em;
+#about {margin-top: 4em;
 
 }
 
@@ -98,13 +98,19 @@ p.about {font-weight: bold;}
 #info {;
 margin-top: 1em;
 margin-bottom: .5em;
-padding: 2em;
+padding: 3.5em;
 font-weight:100;}
 
 #info2 {margin-top: .5em;
 margin-bottom: 1em;
-padding: 2em;
+padding: 1em;
 font-weight:100;}
+
+.consequences {
+margin-top: .5em;
+padding-top: 4.5em;
+}
+
 
 #footer {background: #428692;
 color: #C4BEB3;
@@ -161,8 +167,8 @@ margin-bottom:.18em;}
 /* FMI AREA */
 
 .fmi {
-margin-bottom: .5em;
-margin-top: 1em;}
+padding-top: 3.5em;
+margin-bottom:4em;}
 
 .fmiimage {width:25em;
 margin-bottom:.5em;}
